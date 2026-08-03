@@ -1,9 +1,5 @@
-import PropTypes from "prop-types";
-
-function App({ prop }) {
-  return <div>{prop}</div>;
+function App() {
+  return <div className="bg-gray-500 shadow">App</div>;
 }
-App.propTypes = {
-  prop: PropTypes.string.isRequired,
-};
+
 export default App;
